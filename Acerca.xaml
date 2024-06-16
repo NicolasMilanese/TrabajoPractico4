@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabajoPractico3.Acerca"
+             Title="Acerca"
+             Background="#221f1f">
+
+    <VerticalStackLayout>
+        
+        <Label 
+            Text="Datos del programador"
+            TextColor="#f5f5f1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image
+            Source="avatar.png"
+            WidthRequest="148"
+            HeightRequest="176"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Margin="0,20,0,0" />
+
+        <Label
+            Text="Nombre: Nicolas Milanese Alejo"
+            TextColor="#f5f5f1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="20"/>
+
+
+        <HorizontalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Spacing="40">
+
+            <Button
+            Text="Telefono"
+            WidthRequest="100"
+            HeightRequest="40"   
+            BackgroundColor="DarkGrey"/>
+
+            <Button
+             Text="Email"
+            WidthRequest="100"
+            HeightRequest="40"   
+            BackgroundColor="DarkGrey"/>
+            
+        </HorizontalStackLayout>
+
+        <Button
+            Text="Volver"
+            TextColor="#f5f5f1"
+            BackgroundColor="#E50914"
+            Margin="40"
+            Clicked="Button_Clicked"/>
+        
+        
+    </VerticalStackLayout>
+
+
+</ContentPage>
